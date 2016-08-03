@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-pushwoosh-icons",
+  "version": "0.0.1",
+  "author": "Ginevive <ginevive>@users.noreply.github.com>",
+  "description": "Cordova plugin to copy custom pushwoosh notification icons into android res folder.",
+  "cordova": {
+    "id": "cordova-plugin-pushwoosh-icons",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginevive/cordova-plugin-pushwoosh-icons.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "app",
+    "notifications",
+    "icons",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ginevive/cordova-plugin-pushwoosh-icons/issues"
+  },
+  "homepage": "https://github.com/ginevive/cordova-plugin-pushwoosh-icons#readme"
+}
