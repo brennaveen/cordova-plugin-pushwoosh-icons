@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-pushwoosh-icons" version="0.0.1">
+    <name>PushWoosh Icons</name>
+    <author>Ginevive</author>
+    <description>
+      Cordova plugin to copy custom pushwoosh notification icons into android res folder
+    </description>
+    <license>MIT</license>
+    <keywords>cordova, android, app, pushwoosh, icon</keywords>
+    <engines>
+      <engine name="cordova" version=">=3.1.0" />
+    </engines>
+    <platform name="android">
+        <resource-file src="res/icon/android_push/hdpi.png" target="res/drawable-hdpi/pw_notification.png" />
+        <resource-file src="res/icon/android_push/ldpi.png" target="res/drawable-ldpi/pw_notification.png" />
+        <resource-file src="res/icon/android_push/mdpi.png" target="res/drawable-mdpi/pw_notification.png" />
+        <resource-file src="res/icon/android_push/xhdpi.png" target="res/drawable-xhdpi/pw_notification.png" />
+        <resource-file src="res/icon/android_push/xxhdpi.png/ic_action_next_item.png" target="res/drawable-xxhdpi/pw_notification.png" />
+        <resource-file src="res/icon/android_push/xxxhdpi.png/ic_action_next_item.png" target="res/drawable-xxxhdpi/pw_notification.png" />
+    </platform>
+</plugin>
